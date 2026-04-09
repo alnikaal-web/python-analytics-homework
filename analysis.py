@@ -5,5 +5,8 @@ df = pd.DataFrame(data)
 
 printprint("Продажи по городам (временная версия):")
 print(df)
-print("Среднее значение:", df["sales"].mean())
+average_sales = df["sales"].mean()
+print("Среднее значение:", average_sales)
+print("Это средний уровень продаж по трем городам")
+
 # test commit
